@@ -2,16 +2,19 @@
 layout: page
 title: About
 permalink: /about/
+
 ---
 
 [TOC]
 
 ## #About this Blog
+
 记录自己成长，记录一些个人觉得比较好的文章或笔记。
 
 
 
 ## #About me
+
 Web Security Researcher 
 
 Team: QQ爱&Love
@@ -23,13 +26,14 @@ Team: QQ爱&Love
 
 
 ## #Friends
+
 - Sven 大佬
 
-- 花与海表哥
+- [花与海表哥](https://ctf.dog/)
 
-- 陌航dalao
+- [陌航dalao](https://www.wileysec.com/)
 
-- 神风老婆
+- [神风老婆](https://www.cnblogs.com/wh4am1/)
 
   
 
