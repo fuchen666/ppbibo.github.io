@@ -30,6 +30,15 @@ finished: true
 ![img](/static/img/a1.png) 
 
 ### 触发一个xss
+
+```bash
+
+http://127.0.0.1:5000/<script>alert(/xss/)</script>
+
+```
+
+![img](/static/img/a2.png) 
+
  
 
  参考：
