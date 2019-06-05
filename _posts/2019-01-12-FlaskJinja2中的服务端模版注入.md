@@ -37,15 +37,17 @@ finished: true
 
 **Jinjan2 基础语法**
 
+```Jinjan2 
 {%...%}     #运行Jinja2的语句；
 
 {{…}}       #在页面中打印Jinja2运行的结果
 
 {#...#}      #注释
+```
 
- 
 
-**模版引擎****成功解析**
+
+**模版引擎成功解析**
 
 [http://127.0.0.1:5000/a{](http://127.0.0.1:5000/aalert(1)){2+2}}
 
@@ -53,6 +55,7 @@ finished: true
 
 **鸡肋拒绝服务攻击**
 
+```Jinjan2
 Flask下有一个 request 内置的全局对象
 
 {{ request.environ['werkzeug.server.shutdown']() }}
@@ -63,10 +66,14 @@ request.environ	 字典中一个名为shutdown_server的方法名分配的键为
 
 [http://127.0.0.1:5000/a{](http://127.0.0.1:5000/aalert(1)){ request.environ['werkzeug.server.shutdown']() }}
 
+
+```
+
  
 
 **获取配置项目信息**
 
+```
 config也是Flask模版中的一个全局对象
 
 它包含了所有应用程序的配置值
@@ -77,13 +84,14 @@ http://127.0.0.1:5000/a{{ config.items() }}
 
 配置项目信息的概念：
 
-[http://www.pythondoc.com/flask/config.html](http://www.pythondoc.com/flask/config.html)
+[http://www.pythondoc.com/flask/config.html](
+```
+
+http://www.pythondoc.com/flask/config.html)
 
 ![img](/static/img/a4.png) 
 
 ![img](/static/img/a6.png) 
-
-**# #**
 
 config是一个类字典对象，它的子类包含很多方法：from_envvar, from_object, from_pyfile, root_path
 
