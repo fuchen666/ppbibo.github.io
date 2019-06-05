@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Flask/Jinja2中的服务端模版注入"
-subtitle: "Flask/Jinja2中的服务端模版注入"
+title: "SSTI的服务端模版注入"
+subtitle: "Flask && Jinja2中的服务端模版注入"
 date: 2019-01-12
 author: ppbibo
 category: security
