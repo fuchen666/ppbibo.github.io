@@ -41,14 +41,7 @@ http://127.0.0.1:5000/<script>alert(/xss/)</script>
 
 ### Jinjan2 基础语法
 
-``` 
-# {% … %}     #运行Jinja2的语句；
-
-# {{ … }}         #在页面中打印Jinja2运行的结果
-
-# {# … #}      #注释
-
-```
+![img](/static/img/asd.png) 
 
 
 
