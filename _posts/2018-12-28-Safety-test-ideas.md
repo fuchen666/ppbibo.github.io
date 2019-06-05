@@ -4,7 +4,7 @@ title: "Safety test ideas"
 subtitle: "Safety test ideas"
 date: 2018-12-28
 author: ppbibo
-category: Notes,security
+category: security
 finished: true
 ---
 [TOC]
@@ -142,14 +142,15 @@ iis在低版本常见的漏洞有：
     文件解析漏洞：文件名为*.asp;.jsp
     目录解析漏洞：文件夹名为*.asp 那么这个文件名下面的所有文件就会解析为asp文件
     IIS6.0 默认可执行的还有*.asa *.cer *.cdx                                
-    IIS7.0/IIS7.5/Nginx<8.03 畸形解析漏洞
-    	1.正常后缀加/*.php 如：xxx.com/upload/1.jpg/1.php
-      2.*.php.123.234 或 *.php.123;*.php.jpg..jps 以此类推下去直到解析为止(php,asp,aspx)（适量）
-      3.建议也多试几次iis6.0的解析漏洞，有些时也是可行的
+
+IIS7.0/IIS7.5/Nginx<8.03 畸形解析漏洞
+    正常后缀加/*.php 如：xxx.com/upload/1.jpg/1.php
+    *.php.123.234 或 *.php.123;*.php.jpg..jps 以此类推下去直到解析为止(php,asp,aspx)（适量）
+    建议也多试几次iis6.0的解析漏洞，有些时也是可行的。
 Apache在低版本常见的漏洞有：
-   	  解析漏洞
-    	  1.从右往左判断解析 如：*.php.rar.jpg.png 等等把常见后缀都写上去直到解析为止（适量）
-    	  2.*.php 改为*.php1,,*.php2,*.php3,*.php4 以此类推下去直到解析为止（适量）
+   	解析漏洞
+    1.从右往左判断解析 如：*.php.rar.jpg.png 等等把常见后缀都写上去直到解析为止（适量）
+    2.*.php 改为*.php1,,*.php2,*.php3,*.php4 以此类推下去直到解析为止（适量）
 ```
 
 ##### 5. Google Hacker
