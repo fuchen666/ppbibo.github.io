@@ -19,7 +19,7 @@ finished: true
 
 
 
-[![1](/static/img/avatar1.jpg)](/static/img/avatar1.jpg)
+[![1](/static/img/1.jpg)](/static/img/1.jpg)
 
 #### 0x1 前期信息收集
 
