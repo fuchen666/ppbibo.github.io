@@ -31,11 +31,15 @@ finished: true
 
 ### 触发一个xss
 
-[http://127.0.0.1:5000/aalert(1)](http://127.0.0.1:5000/aalert(1))
+```Jinjan2 
+
+http://127.0.0.1:5000/<script>alert(/xss/)</script>
+
+```
 
 ![img](/static/img/a2.png) 
 
-**Jinjan2 基础语法**
+### Jinjan2 基础语法
 
 ```Jinjan2 
 {%...%}     #运行Jinja2的语句；
@@ -49,7 +53,11 @@ finished: true
 
 ### 模版引擎成功解析
 
-[http://127.0.0.1:5000/a{](http://127.0.0.1:5000/aalert(1)){2+2}}
+```Jinjan2 
+
+http://127.0.0.1:5000/aaa{{2+2}}
+
+```
 
 ![img](/static/img/a3.png) 
 
