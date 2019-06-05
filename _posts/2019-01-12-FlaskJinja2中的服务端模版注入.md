@@ -29,7 +29,7 @@ finished: true
 
 ![img](/static/img/a1.png) 
 
-**触发一个xss**
+### 触发一个xss
 
 [http://127.0.0.1:5000/aalert(1)](http://127.0.0.1:5000/aalert(1))
 
@@ -47,13 +47,13 @@ finished: true
 
 
 
-**模版引擎成功解析**
+### 模版引擎成功解析
 
 [http://127.0.0.1:5000/a{](http://127.0.0.1:5000/aalert(1)){2+2}}
 
 ![img](/static/img/a3.png) 
 
-**鸡肋拒绝服务攻击**
+### 鸡肋拒绝服务攻击
 
 ```Jinjan2
 Flask下有一个 request 内置的全局对象
@@ -71,7 +71,7 @@ request.environ	 字典中一个名为shutdown_server的方法名分配的键为
 
  
 
-**获取配置项目信息**
+### 获取配置项目信息
 
 ```
 config也是Flask模版中的一个全局对象
@@ -93,14 +93,17 @@ http://www.pythondoc.com/flask/config.html)
 
 ![img](/static/img/a6.png) 
 
+```python
 config是一个类字典对象，它的子类包含很多方法：from_envvar, from_object, from_pyfile, root_path
 
 Flask/config.py
 
 def from_object(self, obj):   
+```
 
 ![img](/static/img/a5.png) 
 
+```text
 B. from_object  遍历新加模块中的所有大写的变量的属性并添加属性 
 
 C. 并且这些添加到config对象的属性都会维持他们本来的类型
@@ -110,8 +113,7 @@ D. 验证：我们将 {{ config.items() }} 注入到存在SSTI漏洞的应用中
 E. 注入  {{ config.from_object('os') }}。这会向config对象添加os库中所有大写变量的属性
 
 F. 再次查看  {{ config.items() }}     ;    os 模块中大写变量的属性成功添加属性
-
- 
+```
 
  
 
