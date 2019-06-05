@@ -7,13 +7,15 @@ permalink: /about/
 
 [TOC]
 
-## #About this Blog
+## About this Blog
 
 记录自己成长，记录一些个人觉得比较好的文章或笔记。
 
 
 
-## #About me
+
+
+## About me
 
 Web Security Researcher 
 
@@ -25,7 +27,9 @@ Team: QQ爱&Love
 
 
 
-## #Friends
+
+
+## Friends
 
 - Sven 大佬
 

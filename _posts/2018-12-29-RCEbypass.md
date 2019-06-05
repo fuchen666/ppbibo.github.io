@@ -4,7 +4,7 @@ title: "命令注入bypass总结（长期更新）"
 subtitle: "一些各种实战奇淫技巧,CTF Trick"
 date: 2018-12-20
 author: bPJoanna
-category: Paper
+category: security
 finished: true
 ---
 [TOC]
