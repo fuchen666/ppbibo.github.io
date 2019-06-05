@@ -5,7 +5,6 @@ subtitle: "Discuz x 任意文件删除复现"
 date: 2019-01-17
 author: ppbibo
 category: security
-category: 漏洞复现
 finished: true
 ---
 [TOC]
