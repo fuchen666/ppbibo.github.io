@@ -31,7 +31,7 @@ finished: true
 
 ### 触发一个xss
 
-```Jinjan2 
+```bash
 
 http://127.0.0.1:5000/<script>alert(/xss/)</script>
 
@@ -41,7 +41,7 @@ http://127.0.0.1:5000/<script>alert(/xss/)</script>
 
 ### Jinjan2 基础语法
 
-```Jinjan2 
+``` 
 {%...%}     #运行Jinja2的语句；
 
 {{…}}       #在页面中打印Jinja2运行的结果
@@ -53,7 +53,7 @@ http://127.0.0.1:5000/<script>alert(/xss/)</script>
 
 ### 模版引擎成功解析
 
-```Jinjan2 
+```bash
 
 http://127.0.0.1:5000/aaa{{2+2}}
 
