@@ -124,3 +124,5 @@ echo "<h2 align=center>没有找到和".htmlspecialchars($str)."相关的结果.
 持续更新...
 
 [靶场地址](http://xss.tesla-space.com)
+[参考1](https://comydream.github.io/2019/05/18/xss-20-game/)
+[参考2](https://mp.weixin.qq.com/s/4m1p1NyOhT0nlStyeYsXlw)
