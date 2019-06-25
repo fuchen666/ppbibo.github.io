@@ -29,19 +29,18 @@ Team: QQ爱&Love
 
 
 
-## Friends
+## Links
 
 - Sven 大佬
-
 - [花与海表哥](https://ctf.dog/)
-
 - [陌航dalao](https://www.wileysec.com/)
-
 - [神风老婆](https://www.cnblogs.com/wh4am1/)
-
 - [麦香鱼'Blog](http://www.maixiangyu.xyz/)
+- [hackhat](http://hackhat.net/)
+- [九世大佬](https://422926799.github.io/)
+- [圈子](https://www.secquan.org/)
 
-  
+
 
 email: sunx36ose@vip.qq.com 📧
 
