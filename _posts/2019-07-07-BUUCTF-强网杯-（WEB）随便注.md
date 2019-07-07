@@ -79,3 +79,5 @@ array(1) {
 
 ## 舒服了😌
 
+参考：https://dev.mysql.com/doc/refman/8.0/en/sql-syntax-prepared-statements.html
+
