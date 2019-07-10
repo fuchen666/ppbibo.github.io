@@ -13,8 +13,6 @@ finished: true
 
 
 
-[![0](./upload-labs 总结 _ bibo @ 安全小生_files/0.png)](/static/img/0.png)
-
 ## 0x1 客户端javascript检测（通常为检测文件扩展名）
 
 ```bash
