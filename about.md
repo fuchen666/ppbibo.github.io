@@ -25,11 +25,9 @@ Team: QQ爱&Love
 
 目前正在学习C && Python && 汇编 🏃
 
-
-
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=3880720&auto=1&height=66"></iframe>
-
-
+ {% if page.music-id %}
+		<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&auto=1&id={{ page.music-id }}&auto={{ page.autoplay }}&height=66"></iframe>
+	{% endif %}
 
 ## Links 
 
