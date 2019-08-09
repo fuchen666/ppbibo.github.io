@@ -2,7 +2,7 @@ title: ALL POSTS 📖
 description: know it then do it🎬
 author: QQ love member No. 3 seed player
 github: https://github.com/ppbibo
-about: know it then do it && QQ爱&Love student
+about: know it then do it && APT086&QQ愛安全实验室成员
 avatar_url: /static/img/avatar.jpg
 
 enableTags: true
@@ -29,7 +29,9 @@ social:
 urls:
     - text: About Me 👈
       url: /about/
-    - text: Tags 📎
+    - text: Links 🔗
+      url: /links/
+    - text: Tags 🏷️
       url: /category/security
     - text: XML Feed 🧾
       url: /feed.xml
