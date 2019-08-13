@@ -4,7 +4,7 @@ title: "使用Microsoft.com域绕过防火墙并执行有效负载"
 subtitle: "使用Microsoft.com域绕过防火墙并执行有效负载"
 date: 2019-07-13
 author: ppbibo
-category: apt
+category: APT攻击
 ---
 
 [TOC]
