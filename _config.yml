@@ -27,12 +27,14 @@ social:
       
 
 urls:
+    - text: Tags 🏷️
+      url: /category/security
     - text: About Me 👈
       url: /about/
     - text: Links 🔗
       url: /links/
-    - text: Tags 🏷️
-      url: /category/security
+    - text: 我们的小家 💗
+      url: /chentingting/
     - text: XML Feed 🧾
       url: /feed.xml
 
