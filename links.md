@@ -28,6 +28,8 @@ permalink: /links/
 - [P牛博客](https://www.leavesongs.com/)
 - [Freebuf](https://www.freebuf.com/)
 - [风陵渡口](https://thief.one/)
+- [即刻安全-Demon](http://www.ggsec.cn)
+
 
 
 📧 email: sunx36ose@vip.qq.com 
