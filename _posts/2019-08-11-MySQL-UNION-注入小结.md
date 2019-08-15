@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "4.MySQL UNION 注入小结"
-subtitle: "4.MySQL UNION 注入小结"
+title: "MySQL UNION 注入小结"
+subtitle: "MySQL UNION 注入小结"
 date: 2019-08-11
 author: ppbibo
 category: 习信息安全系列
