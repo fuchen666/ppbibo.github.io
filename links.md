@@ -10,7 +10,6 @@ permalink: /links/
 
 ## Links 
 
-- [APT086 &QQ愛安全实验室](https://ctf.dog/qqlovelab/)
 
 
 <b>致力收集信安大佬们的所有链接</b>
