@@ -136,3 +136,5 @@ SELECT * FROM users WHERE id=1 UNION SELECT 1,2,3,4,name,Strong FROM users;
 
 
 group_concat()，手册上说明:该函数返回带有来自一个组的连接的非NULL值的字符串结果。
+
+

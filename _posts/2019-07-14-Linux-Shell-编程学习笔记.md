@@ -458,6 +458,7 @@ done
 
 [参考](https://www.runoob.com/linux/linux-shell.html)
 
-[参考2](https://www.cnblogs.com/archer-wen/p/10522891.html)
 
-[参考3](https://thief.one/2017/08/11/1/)
+------
+
+***「 转载请声明博客地址及APT086&QQ愛安全实验室 」***
