@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "webmin_CMS命令执行漏洞复现"
-subtitle: "webmin_CMS命令执行漏洞复现"
+title: "webmin_CMS命令执行漏洞复现（CVE-2019-15107）"
+subtitle: "webmin_CMS命令执行漏洞复现（CVE-2019-15107）"
 date: 2019-08-19
 author: ppbibo
 category: security
