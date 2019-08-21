@@ -138,3 +138,15 @@ SELECT * FROM users WHERE id=1 UNION SELECT 1,2,3,4,name,Strong FROM users;
 group_concat()，手册上说明:该函数返回带有来自一个组的连接的非NULL值的字符串结果。
 
 
+
+**Mysql 5.0以上与5.0以下的区别:**
+
+5.0以下没有information_schema这个系统表，无法列表名等，只能暴力跑表名。
+
+
+
+
+
+------
+
+***「 转载请声明博客地址及APT086&QQ愛安全实验室 」***
