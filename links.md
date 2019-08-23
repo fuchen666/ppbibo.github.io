@@ -27,6 +27,8 @@ permalink: /links/
 - [风陵渡口](https://thief.one/)
 - [即刻安全-Demon](http://www.ggsec.cn)
 - [swx 's Blog](http://www.xmrseo.com/)
+- [yangyangwithgnu](https://www.freebuf.com/author/yangyangwithgnu)
+
 
 
 <b>常用书签</b>
