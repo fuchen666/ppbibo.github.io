@@ -33,12 +33,12 @@ urls:
       url: /about/
     - text: Links 🔗
       url: /links/
-    - text: 陈婷婷 💗
-      url: /chentingting/
-    - text: XML Feed 🧾
-      url: /feed.xml
     - text: APT086 👏
       url: https://ctf.dog/qqlovelab/
+    - text: XML Feed 🧾
+      url: /feed.xml
+    - text: 陈婷婷 💗
+      url: /chentingting/
 
 url: "https://6o9.im"
 baseurl: ""
